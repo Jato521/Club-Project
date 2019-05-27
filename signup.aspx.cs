@@ -11,11 +11,7 @@ namespace CIS5800_Project
 {
      public partial class signup : System.Web.UI.Page
      {
-          string connectionString = "Server=den1.mssql7.gear.host;" +
-                         "Initial Catalog=cis5800db;" +
-                         "User ID=cis5800db;" +
-                         "Password=Jq25_RsP_KUD;" +
-                         "Integrated Security=false";
+          string connectionString = 
 
           protected void Page_Load(object sender, EventArgs e)
           {
