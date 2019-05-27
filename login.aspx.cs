@@ -31,11 +31,7 @@ namespace CIS5800_Project
 
           protected void loginButton_Click(object sender, EventArgs e)
           {
-               string connectionString = "Server=den1.mssql7.gear.host;" +
-                    "Initial Catalog=cis5800db;" +
-                    "User ID=cis5800db;" +
-                    "Password=Jq25_RsP_KUD;" +
-                    "Integrated Security=false";
+               string connectionString = ;
                SqlConnection connection;
                connection = new SqlConnection();
                connection.ConnectionString = connectionString;
