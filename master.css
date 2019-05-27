@@ -1,0 +1,168 @@
+﻿body {
+     font-family:Arial, sans-serif;
+}
+
+hr{
+     border-color:black;
+}
+
+nav{
+     border-bottom:1px ridge black;
+}
+
+.background-hero {
+     text-align: center;
+     background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("images/hero.jpg");
+     background-size:cover;
+     background-repeat:no-repeat;
+     padding-bottom:2.3em;
+}
+
+.background-hero h1 {     
+     padding-top:1em;
+     font-size:10em;
+}
+
+/*
+.jumbotron {
+     background:transparent;
+     text-align: center;
+     background-color: #0094ff;
+     padding: 8%;
+}
+
+.jumbotron h1 {
+     font-weight: bold;
+     font-size:10em;
+     color:#0b05a3;
+}
+*/
+
+footer{
+     text-align:center;
+     margin: 3em;
+}
+
+.carousel{
+     padding-top:2%;
+}
+
+#clubListTable tr td:nth-of-type(3){
+     text-align:left;
+}
+
+#clubListTable td, #clubListTable th, #clubEventTable td, #clubEventTable th{
+     border:1px solid black;
+     padding:1em;
+     text-align:center;
+}
+
+#clubListTable th, #clubEventTable th {
+     background-color: #0094ff;
+     font-size: 1.5em;
+     padding: .5em;
+     color: white;
+}
+
+#clubListTable, #clubEventTable {
+     margin-top:3em;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+#clubListTable tr:nth-of-type(odd){
+     background-color:#d2ebfe;
+}
+
+.section-heading{
+     padding-top:1.5em;
+     margin:1em;
+     text-align:center;
+     text-decoration:underline;
+     font-weight:bold;
+}
+
+#filterDiv{
+     text-align:center;
+     margin-top:1em;
+}
+
+#adminFunctionDiv{
+     text-align:center;
+}
+
+#modEventDiv button{
+     margin:.25em;
+     color:white;
+}
+
+button a{
+     color:black;
+}
+
+#emailContent{
+     margin-left:auto;
+     margin-right:auto;
+     text-align:center;
+}
+
+#emailTextbox, #submitEmail{
+     width: 50%;
+}
+
+img{
+     max-width:25%;
+     height:auto;
+     display:block;
+     margin-left:auto;
+     margin-right:auto;
+}
+
+#loginDiv {
+     text-align: center;
+     width: 30%;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+#edit-delete-div{
+     width:60%;
+     margin:auto;
+     text-align:center;
+}
+
+#edit-delete-div #eventDDL{
+     width:100%;
+}
+
+#editEventDiv{
+     width:60%;
+     margin-left:auto;
+     margin-right:auto;
+}
+
+.center-link{
+     text-align:center;
+}
+
+#failedLogin, #deletePanel .warning {
+     color: red;
+}
+
+.management-content {
+     width:50%;
+     margin-left:auto;
+     margin-right:auto;
+     padding-bottom:15em;
+     border-bottom: 1px solid black;
+}
+
+#deleteDDL{
+     width:100%;
+}
+
+#formDiv{
+     width:70%;
+     margin-left:auto;
+     margin-right:auto;
+}
